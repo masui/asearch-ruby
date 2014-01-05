@@ -12,7 +12,10 @@ FIX (describe your package)
 
 == SYNOPSIS:
 
-  FIX (code sample of usage)
+a = Asearch.new('abcde')
+a.match('abcde')      # => true
+a.match('abXcde')     # => false
+a.match('abXcde',1)   # => true
 
 == REQUIREMENTS:
 
