@@ -1,4 +1,4 @@
-# asearch - 曖昧検索ライブラリ
+# asearch - approximate pattern matching
 
 * http://github.com/masui/asearch_ruby
 
@@ -15,10 +15,6 @@
     a.match('abde')       # => false
     a.match('abXcde',1)   # => true
     a.match('abde',1)     # => true
-
-## REQUIREMENTS:
-
-特になし
 
 ## INSTALL:
 
