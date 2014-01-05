@@ -2,30 +2,30 @@
 
 * http://github.com/masui/asearch_ruby
 
-== DESCRIPTION:
+## DESCRIPTION:
 
 正規表現で指定しにくい曖昧検索
 
-== FEATURES/PROBLEMS:
+## FEATURES/PROBLEMS:
 
 ...
 
-== SYNOPSIS:
+## SYNOPSIS:
 
     a = Asearch.new('abcde')
     a.match('abcde')      # => true
     a.match('abXcde')     # => false
     a.match('abXcde',1)   # => true
 
-== REQUIREMENTS:
+## REQUIREMENTS:
 
 特になし
 
-== INSTALL:
+## INSTALL:
 
     % gem install ruby-asearch
 
-== LICENSE:
+## LICENSE:
 
 (The MIT License)
 
