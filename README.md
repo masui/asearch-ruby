@@ -4,18 +4,17 @@
 
 ## DESCRIPTION:
 
-正規表現で指定しにくい曖昧検索
-
-## FEATURES/PROBLEMS:
-
-...
+正規表現で指定しにくい曖昧検索を実行します。
+「"abcde"に近い文字列」
 
 ## SYNOPSIS:
 
     a = Asearch.new('abcde')
     a.match('abcde')      # => true
     a.match('abXcde')     # => false
+    a.match('abde')       # => false
     a.match('abXcde',1)   # => true
+    a.match('abde',1)     # => true
 
 ## REQUIREMENTS:
 
