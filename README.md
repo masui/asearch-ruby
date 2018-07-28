@@ -18,7 +18,7 @@
 
 ## INSTALL:
 
-    % gem install ruby-asearch
+    % gem install asearch
 
 ## LICENSE:
 
